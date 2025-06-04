@@ -132,10 +132,33 @@
 #
 # print(mask_count)
 
-from ipaddress import *
+# from ipaddress import *
+#
+# net = ip_network('255.255.255.224/255.255.255.224', 0)
+#
+# print(net.num_addresses)
+#
 
-net = ip_network('255.255.255.224/255.255.255.224', 0)
+# from ipaddress import *
+#
+# net = ip_network('222.222.188.111/255.255.252.0', 0)
+# k = 0
+# for ad in net:
+#     if ad == ip_address('222.222.188.111'):
+#         print(k)
+#         break
+#     k += 1
 
-print(net.num_addresses)
-
-
+# from ipaddress import *
+#
+# net = ip_network('166.192.0.0/255.252.0.0', 0)
+#
+# k = 0
+#
+# for ad in net:
+#     ad2 = bin(int(ad))[2:].zfill(32)
+#
+#     if ad2.count('1') % 2 != 0:
+#         k += 1
+#
+# print(k)
