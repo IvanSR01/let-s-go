@@ -123,3 +123,12 @@
 #     return f(a-1, b) + f(a//3, b)
 #
 # print(f(37, 10) * f(10, 2))
+
+# def f (a, b, p, m):
+#     if a == b:
+#         return 1
+#     if a > b or p == 3 or m == 1:
+#         return 0
+#     return f(a - 1, b, p, m + 1) + f(a * 2, b, p + 1, m) + f(a * 3, b, p + 1, m)
+#
+# print(f(4, 116, 0, 0))
